@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "commonjs": true,
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "semi": ["warn", "never"],
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ],
+    "react/prop-types": [
+      "warn",
+      {
+        "skipUndeclared": true
+      }
+    ],
+    "react/sort-comp": ["warn"],
+    "react/no-will-update-set-state": ["warn"],
+    "react/no-redundant-should-component-update": ["warn"],
+    "react/no-unescaped-entities": [0]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@discontinuity/react-native-scroll-view-keyboard-manager",
+  "version": "0.1.0",
+  "description": "React Native component which prevents inputs from being hidden by the keyboard in scroll views - iOS and Android",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Discontinuity-srl/react-native-scroll-view-keyboard-manager.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "scroll-view",
+    "scrollview",
+    "keyboard",
+    "ios",
+    "android"
+  ],
+  "author": "Discontinuity s.r.l.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Discontinuity-srl/react-native-scroll-view-keyboard-manager/issues"
+  },
+  "homepage": "https://github.com/Discontinuity-srl/react-native-scroll-view-keyboard-manager#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-native": "0.51.0",
+    "prop-types": "^15.6.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
