@@ -31,7 +31,7 @@ Features:
 ## Installation
 
 ```
-npm install react-native-scroll-view-keyboard-manager
+npm install @discontinuity/react-native-scroll-view-keyboard-manager
 ```
 
 ## Usage
