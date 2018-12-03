@@ -37,13 +37,13 @@ npm install @discontinuity/react-native-scroll-view-keyboard-manager
 ## Usage
 
 ```js
-export class MyScrollView extends React.Component {
-  import { ScrollView } from "react-native"
+import { ScrollView } from "react-native"
   import ScrollViewKeyboardManager, {
     ANDROID_SOFT_INPUT_MODES
   } from "react-native-scroll-view-keyboard-manager"
-
-
+  
+export class MyScrollView extends React.Component {
+ 
   render() {
     const { children } = this.props
 
